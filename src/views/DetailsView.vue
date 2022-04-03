@@ -24,11 +24,20 @@ export default {
   max-width: 600px;
   margin: 0.5rem auto;
   border: 2px solid #444;
+  border-radius: 5px;
 }
 .post p {
   color: #444;
   line-height: 1.5em;
   margin-top: 40px;
+}
+.post a {
+  text-decoration: none;
+  color: rgb(16, 230, 105);
+}
+.post a:hover {
+  text-decoration: none;
+  color: rgb(19, 218, 52);
 }
 .pre {
   white-space: pre-wrap;
